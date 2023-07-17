@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #2874F0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* BOX 1 */
+.nav-logo{
+    width: 75px;
+    height: 60px;
+}
+.logo{
+    background-image: url("../img/flipkart.png");
+    width: 100%;
+    background-size: cover;
+    height: 20px;
+    margin-top: 15px;
+    display: flex;
+
+}
+.nav-logo a{
+    font-size: 11px;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+
+
+}
+.nav-logo span{
+    color: #FFE500;
+    font-style: italic;
+
+
+}
+/* .star{
+    background-image: url("../img/flipkart-star.png");
+    width: 100%;
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+} */
+.nav-logo a:hover{
+    text-decoration: underline;
+}
+
+/* BOX 2 */
+.nav-search{
+    display: flex;
+    background-color: white;
+    width: 400px;
+    height: 40px;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    padding: 0px 16px;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:white;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    color: #2874F0;   
+}
+
+/* BOX 3 */
+.nav-login{
+    display: flex;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    color: #2874F0;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOX 4 */
+.nav-seller{
+    display: flex;
+    width: 150px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOX5 */
+.nav-more{
+    display: flex;
+    width: 50px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BOX6 */
+.nav-cart{
+    color: white;
+    font-weight: bold;
+}
+
+/* PANEL */
+.panel{
+    display: flex;
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.panel p{
+    font-size: 14px;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+.pan-gro{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-grocery{
+    background-image: url("../img/pan-grocery.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-mob{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-mobile{
+    background-image: url("../img/pan-mobile.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-fas{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-fashion{
+    background-image: url("../img/pan-fashion.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-elec{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-electronics{
+    background-image: url("../img/pan-electronics.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-hom{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-home{
+    background-image: url("../img/pan-home.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-app{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-appli{
+    background-image: url("../img/pan-appliances.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-tra{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-travel{
+    background-image: url("../img/pan-travel.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-top{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-topoffer{
+    background-image: url("../img/pan-offers.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-to{
+    display: block;
+    padding: 12px 8px 12px 22px;
+    justify-content: center;
+    align-items: center;
+}
+.pan-toys{
+    background-image: url("../img/pan-toys.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+.pan-tw{
+    display: block;
+    padding: 12px 8px 12px 22px;
+}
+.pan-two{
+    background-image: url("../img/pan-bikes.webp");
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+
+/* HERO section */
+.hero{
+    background-color: rgb(211, 208, 208);
+    padding: 10px;
+}
+.hero-section{
+    background-image: url(../img/hero.webp);
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+}
+
+.hero-offer{
+    background-image: url(../img/hero-offer.webp); 
+    background-size: cover;
+    height: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.top{
+    height: 360px;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-offers{
+    width: 230px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px 124px;
+}
+.top-offers p {
+    font-size: 30px;
+    padding: 70px 10px 30px 10px ;
+}
+.top-offers a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 50px;    
+    background-color: #2874F0;
+    color: white;
+    font-size: 13px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 15px 0px 0px;
+    color: #212121;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 8px 0px 0px;
+    color: #388E3C;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 7px 0px 0px;
+    color: #212121;
+    opacity: 75%;
+}
+.top-ipad{
+    padding: 10px;
+}
+.ipad{
+    background-image: url(../img/top-ipad.webp);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin: 0px 40px;
+    display: block;
+}
+.top-ac{
+    padding: 10px;
+}
+.ac{
+    background-image: url(../img/top-ac.webp);
+    background-size: cover;
+    height: 65px;
+    width: 200px;
+    margin: 70px 0px;
+    display: block;
+}
+.top-monitor{
+    padding: 10px;
+}
+.monitor{
+    background-image: url(../img/top-monitor.webp);
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    margin: 25px 0px;
+    display: block;
+}
+.top-kitchen{
+    padding: 10px;
+}
+.kitchen{
+    background-image: url(../img/top-kitchen.webp);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+.top-bottle{
+    padding: 10px;
+}
+.bottle{
+    background-image: url(../img/top-bottle.webp);
+    background-size: cover;
+    height: 200px;
+    width: 120px;
+    display: block;
+}
+.top-water{
+    padding: 10px;
+}
+.water{
+    background-image: url(../img/top-water.webp);
+    background-size: cover;
+    height: 200px;
+    width: 150px;
+    display: block;
+}
+
+.big-saving-offer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.big1{
+    background-image: url(../img/big1.webp);
+    background-size: cover;
+    width: 490px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    padding: 25px;
+    color: #878787;
+}
+.information h2{
+    font-size: 14px;
+    
+}
+.information p{
+    font-size: 11px;
+    margin: 5px 0px 15px ;
+    line-height: 16px;
+}
+
+.last-item{
+    background-color: #0b0726;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 0px;
+    color: #878787;
+
+
+}
+
+
+
+
+.last-item a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+}
+
+ul p{
+    font-size: 12px;
+    font-size: 12px;
+    margin: 10px;
+}
+
+ul a{
+    display: block;
+    margin: 10px;
+}
